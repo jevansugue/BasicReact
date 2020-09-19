@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+nav {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: left; */
+  text-align: left;
+  min-height: 10vh;
+  background: rgb(116, 146, 156);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  list-style: none;
+  padding: 2px;
+}
+
+.nav-links li {
+  /* padding: 2px; */
+  padding-left: 10px;
+}
+
+.submitButton {
+  margin-top: 3em;
+}
+
+.resultsContainer {
+  margin-top: 3em;
+}
+
+.MuiButtonBase-root {
+  margin: 7px !important;
+}
